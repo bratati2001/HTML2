@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h2>Redeclaring a variable using</h2>
+    <p id="demo"></p>
+    <script>
+        var x=10;
+        //here x is 10
+        {
+            var x=2;
+            //here x is 2;
+        }
+        //here x is 2;
+        document.getElementById("demo").innerHTML=x;
+    </script>
+</body>
+</html>
